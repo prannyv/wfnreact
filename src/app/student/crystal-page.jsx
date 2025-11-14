@@ -10,6 +10,8 @@ export default function CrystalPage() {
       2. git commit -m 'I updated XYZ'
       3. git pull 
       4. git push
+
+      another change
     </div>
 
   );
