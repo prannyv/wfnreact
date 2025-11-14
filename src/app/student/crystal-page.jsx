@@ -7,7 +7,7 @@ export default function CrystalPage() {
       <div>james scares me a tad bit</div>
 
 
-      {/* CRYSTAL MUST REMEMBER THESE COMMANDS */}
+      {/* CRYSTAL REMEMBER THESE COMMANDS */}
 
       another change
     </div>
