@@ -1,0 +1,91 @@
+.maxwell-container {
+  margin-top: 200px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 2px solid #333; /* Adds a border around it */
+  border-radius: 10px; /* Rounds the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow */
+  max-width: 600px; /* Limits the width */
+  margin-left: auto; /* Centers it horizontally */
+  margin-right: auto;
+}
+
+.maxwell-title {
+  color: rgb(32, 102, 231);
+  font-size: 36px;
+}
+
+.maxwell-content {
+  margin-left: 0rem; /* move everything inside to the right; increase/decrease value as needed */
+  /* or use padding-left: 2rem; */
+  margin-bottom: 200px;
+    color: black;  /* Add this line */
+
+}
+
+.maxwell-image {
+  width: 150px;  /* or whatever size you want */
+  height: auto;  /* keeps the aspect ratio */
+  border-radius: 8px;  /* optional: rounded corners */
+  margin: 0 auto;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.next-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.next-button:hover {
+  background-color: #0056b3;
+}
+
+.maxwell-image {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.info-box {
+  background-color: #d3d3d3;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  /* Remove text-align: center; */
+  .info-box h2,
+  .info-box h3,
+  .info-box h4 {
+  text-align: left;
+}
+  
+}
+
+
+.name-box {
+  background-color: #ADD8E6;  /* light blue */
+  border: 2px solid #87CEEB;  /* sky blue border */
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.name-box h1 {
+  color: #1E3A8A;  /* dark blue that fits well */
+  margin: 10px 0;
+}
