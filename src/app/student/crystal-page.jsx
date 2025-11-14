@@ -4,12 +4,10 @@ export default function CrystalPage() {
       <h1>Crystal</h1>
       <a href="/home">Back to Home</a>
       <div>hi</div>
+      <div>james scares me a tad bit</div>
+
 
       {/* CRYSTAL MUST REMEMBER THESE COMMANDS */}
-      1. git add .
-      2. git commit -m 'I updated XYZ'
-      3. git pull 
-      4. git push
 
       another change
     </div>
